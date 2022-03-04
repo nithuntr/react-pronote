@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=Roboto&display=swap');
+
+.container
+{
+    display : flex;
+    background-color: #3867D6;
+    height: 100vh;
+    padding: 50px;
+}
+
+.input
+{
+    width: 50vw;
+}
+.input textarea
+{
+    width: 90%;
+    height: 60%;
+    border: #464646 solid 3px;
+    background-color: inherit;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    outline: none;
+}
+.output
+{
+    width: 50vw;
+}
+
+.output-text
+{
+    height: 70%;
+    width: 80%;
+    background: #464646;
+    border-radius: 5px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    padding: 10px;
+}
